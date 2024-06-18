@@ -3,3 +3,4 @@ requests>=2.0,<3.0
 python_dateutil>=2.5.3
 websocket-client==1.2.1
 ibm_cloud_sdk_core==3.11.0
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
